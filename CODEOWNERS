@@ -1,0 +1,24 @@
+# Codeowners
+# https://github.com/orgs/verkada/teams/web - All web team members
+# https://github.com/orgs/verkada/teams/web-approvers - Manager web approval
+# https://github.com/orgs/verkada/teams/web-access - Web access team
+# https://github.com/orgs/verkada/teams/web-cameras-approvers - Web cameras team valid approvers group
+# https://github.com/orgs/verkada/teams/web-core - Core command team
+# https://github.com/orgs/verkada/teams/web-home-streaming - Home/Streaming team
+# https://github.com/orgs/verkada/teams/web-localplayer - Web localplayer team approvers group
+# https://github.com/orgs/verkada/teams/dx - Developer Experience/Tools team
+# https://github.com/orgs/verkada/teams/web-vgateway - Web vGateway team
+# https://github.com/orgs/verkada/teams/web-vtoolbox - Any engineer approved to make changes on vToolbox GUI
+# https://github.com/orgs/verkada/teams/web-search-events - Search/CV/Events/Notifications & Platform team
+# https://github.com/orgs/verkada/teams/web-i18n-infra - Cross-team web engineers focused on i18n infrastructure
+
+# Root
+/*.* @verkada/web-home-streaming
+
+# Src
+/src @verkada/web-home-streaming
+
+# Test
+/test @verkada/web-home-streaming
+
+
