@@ -13,7 +13,7 @@ jobs:
     uses: ./.github/workflows/tests-core.yml
     with:
       env-name: Node.JS
-      test-command: pnpm run test
+      test-command: yarn test
   test-in-browsers:
     if: ${{ false }}  # disable for now
     strategy:
@@ -25,6 +25,4 @@ jobs:
     uses: ./.github/workflows/tests-core.yml
     with:
       env-name: ${{matrix.browser}}
-      test-command: BROWSER_TO_TEST=${{matrix.browser}} pnpm run test-in-browser
-    
- 
+      test-command: BROWSER_TO_TEST=${{matrix.browser}} yarn test-in-browser
