@@ -26,7 +26,8 @@
   "types": "./src/jdataview.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/jdataview.js"
+      "import": "./dist/jdataview.js",
+      "types": "./src/jdataview.d.ts"
     }
   },
   "repository": {
